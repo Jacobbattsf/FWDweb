@@ -1,1 +1,1 @@
-var cat = "meow"
+var cat = "meow";

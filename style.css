@@ -4,6 +4,7 @@ body {
     height: 100vh; 
     display: flex;
     flex-direction: column;
+    background-color: #333;
 }
 
 .indexheader {
@@ -12,7 +13,8 @@ body {
     height: 7vh; 
     display: flex;
     align-items: center; 
-    justify-content: right; 
+    justify-content: right;
+    margin-right: 50px; 
 }
 
 .staticnav {
@@ -37,23 +39,37 @@ body {
     width:75vw;
     align-items: center; 
     justify-content: center;
+    background-image: url(assets/pexels-pixabay-207049.jpg);
+    background-size: cover;
     
 }
 
 .sidestuff {
     background-color: #999;
     width: 25vw; 
-    display: flex;
+    display: grid;
     align-items: center; 
     justify-content: center; 
     
 }
+#onethird{
+    background-color: red;
+}
+#twothirds{
+    background-color: purple;
+}
+#threethirds{
+    background-color: green;
+}
 
 .foot {
-    background-color: #333; 
+    background-color: black;     
     color: white; 
-    height: 3vh;
+    height: 2vh;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.headerlogotitle{
+
 }
