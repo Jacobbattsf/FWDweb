@@ -1,3 +1,20 @@
+
+@media only screen and (max-width: 600px) {
+    
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    
+}
+
+
+@media only screen and (min-width: 1025px) {
+   
+}
+
+
+
 body {
     margin: 0;
     padding: 0;
@@ -53,13 +70,19 @@ body {
     
 }
 #onethird{
-    background-color: red;
+    background-color: rgb(81, 121, 121);
+    height: 100%;
+
 }
 #twothirds{
-    background-color: purple;
+    background-color: rgb(127, 127, 209);
+    height: 100%;
+    width: 100;
 }
 #threethirds{
-    background-color: green;
+    background-color: rgb(86, 219, 175);
+    height: 100%;
+    width: 100%;
 }
 
 .foot {
@@ -70,6 +93,21 @@ body {
     align-items: center;
     justify-content: center;
 }
-.headerlogotitle{
-
+#subhead{
+    margin: auto;
+    padding: auto;
+    text-align: center;
+}
+p{
+    margin-top: 25px;
+    font-size: 1.25em;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+button{
+    background-color: black;
+    border: greenyellow,1px;
+    color:greenyellow;
+    font-family: monospace;
 }
