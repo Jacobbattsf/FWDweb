@@ -19,21 +19,25 @@
     </nav>
     <div class="formcontainer">
         <div id="form">
+            
             <form id = "contactForm">
+                <h1>Contact Form</h1>
                 <label for="firstName">First Name:</label><br>
-                <input type="text" id="firstName" name="firstName" placeholder="Enter your first name" required><br><br>
+                <input class="inputs" type="text" id="firstName" name="firstName" placeholder="Enter your first name" required><br><br>
 
                 <label for="lastName">Last Name:</label><br>
-                <input type="text" id="lastName" name="lastName" placeholder="Enter your last name" required><br><br>
+                <input class="inputs" type="text" id="lastName" name="lastName" placeholder="Enter your last name" required><br><br>
 
                 <label for="email">Email Address:</label><br>
-                <input type="email" id="email" name="email" placeholder="Enter your email address" required><br><br>
+                <input class="inputs" type="email" id="email" name="email" placeholder="Enter your email address" required><br><br>
 
-                <label for="lastName">Last Name:</label><br>
-                <input type="text" id="lastName" name="lastName" placeholder="Enter your last name" required><br><br>
+                <h6 id="errormessage">Your confirmation email does not match your first email. Please try again.</h6>
+                <label for="confirmEmail">Confirm Email Address:</label><br>
+                <input class="inputs" type="email" id="confirmEmail" name="confirmEmail" placeholder="Confirm your email address" required><br><br>
 
-                <label for="lastName">Last Name:</label><br>
-                <input type="text" id="lastName" name="lastName" placeholder="Enter your last name" required><br><br>
+                <label for="question">Question:</label><br>
+                <textarea class="inputs" id="question" name="question" placeholder="Ask your question here" required></textarea><br><br>
+                <button class="button-override">submit</button>
             </form>
         </div>
         
@@ -42,5 +46,6 @@
     <footer class="plfoot">
     <h4 class="aboslute-positioned">Made by Jacob Battenfield (2024)</h4>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
