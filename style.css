@@ -22,9 +22,9 @@ body {
     color: white;
     height: 10vh;
     display: flex;
-    align-items: center;
-    justify-content: right;
     
+    justify-content: right;
+    align-items: center;
     margin-right: 50px;
     
 }
@@ -204,4 +204,25 @@ button:active{
 h6{
     display: none;
     color: red;
+}
+.anchorinfodiv{
+    background-color: blue;
+}
+.anchead{
+    text-align: center;
+    font-size: 50px;
+}
+.ancinfo{
+    text-align: center;
+    font-size: 32px;
+}
+.info{
+    color:yellow
+
+}
+.sitelink{
+    color:rgb(153, 153, 46)
+}
+.sitelink:hover{
+    color:pink
 }
