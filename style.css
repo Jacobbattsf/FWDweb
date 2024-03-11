@@ -226,3 +226,37 @@ h6{
 .sitelink:hover{
     color:pink
 }
+.lsthead{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: bisque;
+    position: relative;
+    font-size: 75px;
+}
+
+
+.ulistitem{
+    margin-top: 25px;
+    font-size: 2vh;
+}
+
+
+.olistitem{
+    margin-top: 5vh;
+    font-size: 3vh;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 3px solid black;
+    text-align: left;
+    padding: 8px;
+    background-color: beige;
+}
+th {
+    background-color: green;
+}
