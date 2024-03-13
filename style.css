@@ -260,3 +260,16 @@ th, td {
 th {
     background-color: green;
 }
+.formcontainer {
+    display: flex;
+}
+
+.form{
+    width: 80%;
+}
+
+.FAQ {
+    width: 20%;
+    background-color: grey;
+}
+
